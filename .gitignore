@@ -125,3 +125,4 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+public/plugins/wow/spec/coffeescripts/wow-spec.coffee
