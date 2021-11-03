@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+            <div class="slider-item js-fullheight" style="background-image:url(assets/ije/images/bg_2.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text js-fullheight align-items-center">
@@ -52,7 +52,7 @@
         </div>
     </section>
 
-    <section class="ftco-section bg-light" id="newsec">
+    <section class="ftco-section" id="newsec">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 heading-section text-center ftco-animate">
@@ -136,7 +136,7 @@
     <section class="ftco-section ftco-portfolio bg-light" id="companiesec">
         <div class="row justify-content-center no-gutters">
             <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-                <h2 class="mb-2">Our Works</h2>
+                <h2 class="mb-2">Companies</h2>
             </div>
         </div>
 
@@ -144,7 +144,7 @@
             <div class="row no-gutters">
                 <div class="col-md-12 portfolio-wrap mt-0">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 img" style="background-image: url(images/work-1.jpg);">
+                        <div class="col-md-5 img" style="background-image: url(assets/ije/logos/kanan-tr.png);">
 
                         </div>
                         <div class="col-md-7">
@@ -152,14 +152,14 @@
                                 <div class="px-4 px-lg-4">
                                     <div class="desc">
                                         <div class="top">
-                                            <span class="subheading">Web Design</span>
-                                            <h2 class="mb-2"><a href="work.html">Cassette tape</a></h2>
+                                            <span class="subheading">Design & Printing</span>
+                                            <h2 class="mb-2"><a href="work.html">Kanan</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
                                                 and Consonantia, there live the blind texts.</p>
                                             <div class="icon d-flex align-items-center mb-4">
-                                                <div class="img" style="background-image: url(images/person_1.jpg);">
+                                                <div class="img" style="background-image: url(assets/ije/logos/kanan.png);">
                                                 </div>
                                                 <div class="position pl-3">
                                                     <h4 class="mb-0">Jamie Jonson</h4>
@@ -177,7 +177,7 @@
 
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 order-md-last img" style="background-image: url(images/work-2.jpg);">
+                        <div class="col-md-5 order-md-last img" style="background-image: url(assets/ije/logos/nios-tr.png);">
 
                         </div>
                         <div class="col-md-7">
@@ -185,8 +185,8 @@
                                 <div class="px-4 px-lg-4">
                                     <div class="desc text-md-right">
                                         <div class="top">
-                                            <span class="subheading">Application</span>
-                                            <h2 class="mb-2"><a href="work.html">Miniwall Clock</a></h2>
+                                            <span class="subheading">Game Developer</span>
+                                            <h2 class="mb-2"><a href="work.html">Night Ownl Studios</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
@@ -194,7 +194,7 @@
                                             <div class="d-flex w-100">
                                                 <div class="icon d-flex align-items-center ml-md-auto mb-4">
                                                     <div class="img"
-                                                        style="background-image: url(images/person_2.jpg);"></div>
+                                                        style="background-image: url(assets/ije/logos/nios.png);"></div>
                                                     <div class="position pl-3 text-left">
                                                         <h4 class="mb-0">Jamie Jonson</h4>
                                                         <span>avo.com</span>
@@ -212,7 +212,7 @@
 
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 img" style="background-image: url(images/work-3.jpg);">
+                        <div class="col-md-5 img" style="background-image: url(assets/ije/logos/oblivion-tr.png);">
 
                         </div>
                         <div class="col-md-7">
@@ -220,14 +220,14 @@
                                 <div class="px-4 px-lg-4">
                                     <div class="desc">
                                         <div class="top">
-                                            <span class="subheading">UI/UX Design</span>
-                                            <h2 class="mb-2"><a href="work.html">Avo Portfolio Agency</a></h2>
+                                            <span class="subheading">IT Consultant</span>
+                                            <h2 class="mb-2"><a href="work.html">Oblivion Solution</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
                                                 and Consonantia, there live the blind texts.</p>
                                             <div class="icon d-flex align-items-center mb-4">
-                                                <div class="img" style="background-image: url(images/person_3.jpg);">
+                                                <div class="img" style="background-image: url(assets/ije/logos/oblivion.png);">
                                                 </div>
                                                 <div class="position pl-3">
                                                     <h4 class="mb-0">Jamie Jonson</h4>
@@ -245,7 +245,7 @@
 
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 order-md-last img" style="background-image: url(images/work-4.jpg);">
+                        <div class="col-md-5 order-md-last img" style="background-image: url(assets/ije/logos/photoworks-tr.png);">
 
                         </div>
                         <div class="col-md-7">
@@ -253,8 +253,8 @@
                                 <div class="px-4 px-lg-4">
                                     <div class="desc text-md-right">
                                         <div class="top">
-                                            <span class="subheading">Web Development</span>
-                                            <h2 class="mb-2"><a href="work.html">Hand Writing</a></h2>
+                                            <span class="subheading">Photography & Videography</span>
+                                            <h2 class="mb-2"><a href="work.html">Photoworks</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
@@ -262,7 +262,7 @@
                                             <div class="d-flex w-100">
                                                 <div class="icon d-flex align-items-center ml-md-auto mb-4">
                                                     <div class="img"
-                                                        style="background-image: url(images/person_2.jpg);"></div>
+                                                        style="background-image: url(assets/ije/logos/photoworks.png);"></div>
                                                     <div class="position pl-3 text-left">
                                                         <h4 class="mb-0">Jamie Jonson</h4>
                                                         <span>avo.com</span>
@@ -280,7 +280,7 @@
 
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 img" style="background-image: url(images/work-5.jpg);">
+                        <div class="col-md-5 img" style="background-image: url(assets/ije/logos/relight-tr.png);">
 
                         </div>
                         <div class="col-md-7">
@@ -288,14 +288,14 @@
                                 <div class="px-4 px-lg-4">
                                     <div class="desc">
                                         <div class="top">
-                                            <span class="subheading">Illustration</span>
-                                            <h2 class="mb-2"><a href="work.html">Keyboard</a></h2>
+                                            <span class="subheading">Artist Management & Music Label</span>
+                                            <h2 class="mb-2"><a href="work.html">Relight Entertaiment</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
                                                 and Consonantia, there live the blind texts.</p>
                                             <div class="icon d-flex align-items-center mb-4">
-                                                <div class="img" style="background-image: url(images/person_2.jpg);">
+                                                <div class="img" style="background-image: url(assets/ije/logos/relight.png);">
                                                 </div>
                                                 <div class="position pl-3">
                                                     <h4 class="mb-0">Jamie Jonson</h4>
@@ -310,44 +310,9 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-12 portfolio-wrap">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 order-md-last img" style="background-image: url(images/work-6.jpg);">
-
-                        </div>
-                        <div class="col-md-7">
-                            <div class="text pt-5 pr-md-5 ftco-animate">
-                                <div class="px-4 px-lg-4">
-                                    <div class="desc text-md-right">
-                                        <div class="top">
-                                            <span class="subheading">Web Development</span>
-                                            <h2 class="mb-2"><a href="work.html">Spiral</a></h2>
-                                        </div>
-                                        <div class="absolute">
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia
-                                                and Consonantia, there live the blind texts.</p>
-                                            <div class="d-flex w-100">
-                                                <div class="icon d-flex align-items-center ml-md-auto mb-4">
-                                                    <div class="img"
-                                                        style="background-image: url(images/person_2.jpg);"></div>
-                                                    <div class="position pl-3 text-left">
-                                                        <h4 class="mb-0">Jamie Jonson</h4>
-                                                        <span>avo.com</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p><a href="#" class="custom-btn">View Portfolio</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="degree-left"></div>
+			</div>
+		</div>
+		<div class="degree-left"></div>
     </section>
 
     <section class="ftco-section" id="aboutsec">
@@ -574,7 +539,7 @@
         </div>
     </section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <section class="ftco-section contact-section ftco-no-pb" id="contactsec">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
@@ -656,6 +621,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
+                    <br>
                     <div id="map" class="map"></div>
                 </div>
             </div>

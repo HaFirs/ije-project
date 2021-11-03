@@ -8,7 +8,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        $data['title'] = ucfirst('welcome to ije group'); // Capitalize the first letter
+        $data['title'] = ('Welcome to Ije Group');
 
         echo view('ije/templates/header', $data);
         echo view('ije/home');
