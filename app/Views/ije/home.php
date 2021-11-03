@@ -1,4 +1,4 @@
-    <section class="hero-wrap degree-right js-fullheight" id="homesec">
+    <section id="homesec" class="hero-wrap degree-right js-fullheight">
         <div class="home-slider js-fullheight owl-carousel">
             <div class="slider-item js-fullheight" style="background-image:url(assets/ije/images/bg_1.jpg);">
                 <div class="overlay"></div>

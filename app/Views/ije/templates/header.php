@@ -27,7 +27,7 @@
 				<span class="oi oi-menu"></span> Menu
 			</button>
 
-			<div class="collapse navbar-collapse" id="myNavbar">
+			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="nav navbar-nav ml-auto">
 					<li class="nav-item"><a href="#homesec" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="#newsec" class="nav-link">News</a></li>
