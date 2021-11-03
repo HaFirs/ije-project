@@ -6,10 +6,9 @@ use PhpParser\Node\Stmt\Echo_;
 
 class Home extends BaseController
 {
-    public function index($page = 'home')
+    public function index()
     {
-        
-        $data['title'] = ucfirst($page); // Capitalize the first letter
+        $data['title'] = ucfirst('welcome to ije group'); // Capitalize the first letter
 
         echo view('ije/templates/header', $data);
         echo view('ije/home');
