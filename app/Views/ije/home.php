@@ -186,7 +186,7 @@
                                     <div class="desc text-md-right">
                                         <div class="top">
                                             <span class="subheading">Game Developer</span>
-                                            <h2 class="mb-2"><a href="work.html">Night Owl Studios</a></h2>
+                                            <h2 class="mb-2"><a href="<?= base_url("nios"); ?>">Night Owl Studios</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
