@@ -14,13 +14,4 @@ class Home extends BaseController
         echo view('ije/home');
         echo view('ije/templates/footer');
     }
-
-    public function nios()
-    {
-        $data['title'] = ('Welcome to Night Owl Studio');
-
-        echo view('nios/templates/header', $data);
-        echo view('nios/home');
-        echo view('nios/templates/footer');
-    }
 }

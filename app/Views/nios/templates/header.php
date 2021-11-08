@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Night Owl Studio</title>
+        <title><?= esc($title); ?></title>
         <link rel="icon" type="image/x-icon" href="assets/nios/assets/images/favicons/favicon.ico" />
         <link rel="icon" type="image/png" href="assets/nios/assets/images/favicons/favicon.png" />
         <!-- For iPhone 4 Retina display: -->
@@ -40,8 +40,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="../index.html" class="navbar-brand">
-                        <img src="assets/images/logo.png" alt="One of the best themes ever">Night Owl Studio
+                    <a href="#home" class="navbar-brand">
+                        <img src="assets/nios/assets/images/nios-logo.png" style="height: 30px; margin-bottom: 8px;" alt="One of the best themes ever"> Night Owl Studio
                     </a>
                 </div>
                 <nav class="collapse navbar-collapse main-navbar" role="navigation">
@@ -58,21 +58,17 @@
                         </form>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown active">
-                            <a href="index.html">Home</a>
-          
+                        <li class="nav-item">
+                            <a href="<?= base_url('nios'); ?>">Home</a>
                         </li>
-                        
-                        <li class="dropdown ">
-                            <a href="underconstruction.html">News</a>
-                           
+                        <li class="nav-item">
+                            <a href="<?= base_url('nios_news'); ?>">News</a>
                         </li>
-                        <li class="dropdown ">
-                            <a href="portfolio-3col-circles.html">Project</a>
+                        <li class="nav-item">
+                            <a href="<?= base_url('nios_project'); ?>">Project</a>
                         </li>
-                        <li class="dropdown ">
-                            <a href="contact.html">Contact</a>
-                           
+                        <li class="nav-item">
+                            <a href="<?= base_url('nios_contact'); ?>">Contact</a>
                         </li>
                     </ul>
                 </nav>

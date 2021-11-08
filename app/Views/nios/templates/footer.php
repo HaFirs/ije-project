@@ -11,6 +11,11 @@
                                 <div id="swatch_social-2" class="sidebar-widget  widget_swatch_social">
                                     <ul class="unstyled inline small-screen-center social-icons social-background social-big">
                                         <li>
+                                            <a href="<?= base_url("home"); ?>">
+                                                <i><img src="assets/nios/assets/images/ije-dark.png" alt="ije-group.png" style="height: 50px; margin-bottom: 15px;"></i>
+                                            </a>
+                                        </li>
+                                        <li>
                                             <a target="_blank" href="http://www.oxygenna.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
