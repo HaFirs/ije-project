@@ -7,7 +7,7 @@ use CodeIgniter\HTTP\URI;
 class Nios extends Controller
 {
     public function index()
-    {
+    {        
         $data['title'] = ('Welcome to Night Owl Studio');
 
         echo view('nios/templates/header', $data);
