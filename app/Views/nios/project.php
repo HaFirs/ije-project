@@ -34,12 +34,7 @@
                             </a>
                         </h4>
                                             <p>You think water moves fast? You should see ice.</p>
-                                            <a class="magnific-gallery more" data-links="
-    
-        assets/nios/assets/images/design/vector/img-4-1200x600.png ,
-    
-        assets/nios/assets/images/design/vector/img-3-1200x600.png
-    " data-prev-text="Previous" data-next-text="Next">
+                                            <a class="magnific-gallery more" data-links="assets/nios/assets/images/design/vector/img-4-1200x600.png , assets/nios/assets/images/design/vector/img-3-1200x600.png" data-prev-text="Previous" data-next-text="Next">
                                                 <i class="fa fa-search-plus"></i>
                                             </a>
                                             <a class="link" href="portfolio-item-big.html">

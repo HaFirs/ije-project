@@ -33,7 +33,8 @@
                                     </ul>
                                 </div>
                                 <div id="text-4" class="sidebar-widget widget_text">
-                                    <div class="textwidget">Night Owl Studio, 2015 ALL RIGHTS RESERVED
+                                    <div class="textwidget">
+                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Night Owl Studio by <a href="<?= base_url('home'); ?>" target="_blank">IJE</a>
                                     </div>
                                 </div>
                             </div>

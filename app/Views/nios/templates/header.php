@@ -58,16 +58,16 @@
                         </form>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item">
+                        <li class="nav-item <?php if($uri->getSegment(1)=='nios'){ echo 'active';} ?>">
                             <a href="<?= base_url('nios'); ?>">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?php if($uri->getSegment(1)=='nios_news'){ echo 'active';} ?>">
                             <a href="<?= base_url('nios_news'); ?>">News</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?php if($uri->getSegment(1)=='nios_project'){ echo 'active';} ?>">
                             <a href="<?= base_url('nios_project'); ?>">Project</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?php if($uri->getSegment(1)=='nios_contact'){ echo 'active';} ?>">
                             <a href="<?= base_url('nios_contact'); ?>">Contact</a>
                         </li>
                     </ul>

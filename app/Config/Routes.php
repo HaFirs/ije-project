@@ -36,6 +36,7 @@ $routes->get('/nios', 'Nios::index');
 $routes->get('/nios_news', 'Nios::nios_news');
 $routes->get('/nios_project', 'Nios::nios_project');
 $routes->get('/nios_contact', 'Nios::nios_contact');
+$routes->get('/nios_about', 'Nios::nios_about');
 
 /*
  * --------------------------------------------------------------------

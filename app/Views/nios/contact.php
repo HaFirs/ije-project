@@ -34,7 +34,7 @@
                             <div id="messages"></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="google-map" id="map" style="height:354px;"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.830273904701!2d113.93057761524992!3d-2.21759303797772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb39ffcc47f27%3A0xf9a4363b60e91743!2sIJE%20Group%20Head%20Office!5e0!3m2!1sen!2sid!4v1635946368303!5m2!1sen!2sid" width="100%" height="355" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,8 @@
                                     </ul>
                                 </div>
                                 <div id="text-4" class="sidebar-widget widget_text">
-                                    <div class="textwidget">Night Owl Studio, 2015 ALL RIGHTS RESERVED
+                                    <div class="textwidget">
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Night Owl Studio by <a href="<?= base_url('home'); ?>" target="_blank">IJE</a>
                                     </div>
                                 </div>
                             </div>
@@ -107,10 +108,10 @@
         <a class="go-top hex-alt" href="javascript:void(0)">
             <i class="fa fa-angle-up"></i>
         </a>
-        <script src="assets/js/packages.min.js"></script>
-        <script src="assets/js/theme.min.js"></script>
-        <script src="assets/js/contact.min.js"></script>
+        <script src="assets/nios/assets/js/packages.min.js"></script>
+        <script src="assets/nios/assets/js/theme.min.js"></script>
+        <script src="assets/nios/assets/js/contact.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script src="assets/js/map.js"></script>
+        <script src="assets/nios/assets/js/map.js"></script>
     </body>
 </html>
