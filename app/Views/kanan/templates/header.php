@@ -30,13 +30,13 @@
         <div class="logo">
           <a href="<?= base_url('kanan'); ?>"><img src="assets/kanan/image/logoheader1.png"></a>
         </div>
-        <div class='nav' nav-menu-style="yoga">
+        <div class="nav" nav-menu-style="yoga">
           <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#design">Design</a></li>
-            <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav-item <?php if($uri->getSegment(1)=='kanan#home'){ echo 'active';} ?>"><a href="<?= base_url('kanan'); ?> #home">Home</a></li>
+            <li class="nav-item <?php if($uri->getSegment(1)=='kanan#product'){ echo 'active';} ?>"><a href="<?= base_url('kanan'); ?> #product">Product</a></li>
+            <li class="nav-item <?php if($uri->getSegment(1)=='kanan#design'){ echo 'active';} ?>"><a href="<?= base_url('kanan'); ?> #design">Design</a></li>
+            <li class="nav-item <?php if($uri->getSegment(1)=='kanan#aboutus'){ echo 'active';} ?>"><a href="<?= base_url('kanan'); ?> #aboutus">About Us</a></li>
+            <li class="nav-item <?php if($uri->getSegment(1)=='kanan#contact'){ echo 'active';} ?>"><a href="<?= base_url('kanan'); ?> #contact">Contact</a></li>
           </ul>
 
         </div>
