@@ -186,7 +186,7 @@
                                     <div class="desc text-md-right">
                                         <div class="top">
                                             <span class="subheading">Game Developer</span>
-                                            <h2 class="mb-2"><a href="<?= base_url("nios"); ?>">Night Owl Studios</a></h2>
+                                            <h2 class="mb-2"><a href="<?= base_url("nios"); ?>">Night Owl Studio</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
@@ -584,7 +584,7 @@
 
                 </div>
 
-                <div class="col-md-4 d-flex pl-md-5">
+                <div class="col-md-4 d-flex pl-md-5" style="margin-top: 20px;">
                     <div class="row">
                         <div class="dbox w-100 d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
@@ -620,9 +620,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.830273904701!2d113.93057761524992!3d-2.21759303797772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb39ffcc47f27%3A0xf9a4363b60e91743!2sIJE%20Group%20Head%20Office!5e0!3m2!1sen!2sid!4v1635946368303!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.830273904701!2d113.93057761524992!3d-2.21759303797772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb39ffcc47f27%3A0xf9a4363b60e91743!2sIJE%20Group%20Head%20Office!5e0!3m2!1sen!2sid!4v1635946368303!5m2!1sen!2sid" width="100%" height="300" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
