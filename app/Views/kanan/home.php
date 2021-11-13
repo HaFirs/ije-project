@@ -44,7 +44,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="buku.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Kartu Nama</h2>
@@ -52,7 +52,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/FRAME.jpg">
-        <div class="cta"><a href="kartunama.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Sticker</h2>
@@ -60,7 +60,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/karakters.jpg">
-        <div class="cta"><a href="sticker.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Pin</h2>
@@ -68,7 +68,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/PIN6.jpg">
-        <div class="cta"><a href="pin.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Gantungan Kunci</h2>
@@ -76,7 +76,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/PIN9.jpg">
-        <div class="cta"><a href="gaci.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Brosur</h2>
@@ -84,7 +84,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/promo 2s3.jpg">
-        <div class="cta"><a href="brosur.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Poster</h2>
@@ -92,7 +92,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/pos1.jpg">
-        <div class="cta"><a href="poster.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Banner</h2>
@@ -100,7 +100,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/backdrop2.jpg">
-        <div class="cta"><a href="banner.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Kalender</h2>
@@ -108,7 +108,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/templateKAL1.jpg">
-        <div class="cta"><a href="kalender.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Paper Bag</h2>
@@ -116,7 +116,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="paperbag.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Stopmap</h2>
@@ -124,7 +124,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="stopmap.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Nota</h2>
@@ -132,7 +132,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="nota.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Buku Tahunan</h2>
@@ -140,7 +140,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="bukutahunan.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
       <li>
         <h2>Company Profile</h2>
@@ -148,7 +148,7 @@
           <p></p>
         </div>
         <img src="assets/kanan/img/buku1as.jpg">
-        <div class="cta"><a href="compro.html">Info</a></div>
+        <div class="cta"><a href="<?= base_url('kanan_undangan'); ?>">Info</a></div>
       </li>
 
 
