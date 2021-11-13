@@ -32,7 +32,17 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+<<<<<<< Updated upstream
 $routes->get('/nios', 'Home::nios');
+=======
+$routes->get('/nios', 'Nios::index');
+$routes->get('/nios_news', 'Nios::nios_news');
+$routes->get('/nios_project', 'Nios::nios_project');
+$routes->get('/nios_contact', 'Nios::nios_contact');
+$routes->get('/nios_about', 'Nios::nios_about');
+$routes->get('/kanan', 'Kanan::index');
+$routes->get('/kanan_undangan', 'Kanan::kanan_undangan');
+>>>>>>> Stashed changes
 
 /*
  * --------------------------------------------------------------------

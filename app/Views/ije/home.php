@@ -153,7 +153,7 @@
                                     <div class="desc">
                                         <div class="top">
                                             <span class="subheading">Design & Printing</span>
-                                            <h2 class="mb-2"><a href="work.html">Kanan Creative</a></h2>
+                                            <h2 class="mb-2"><a href="<?= base_url('kanan'); ?>">Kanan Creative</a></h2>
                                         </div>
                                         <div class="absolute">
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia
