@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/admin', 'App\Controllers\Admin\Dashboard::index');
 $routes->get('/nios', 'Nios::index');
 $routes->get('/nios_news', 'Nios::nios_news');
 $routes->get('/nios_project', 'Nios::nios_project');
