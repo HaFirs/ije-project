@@ -8,8 +8,9 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title><?= esc($title); ?></title>
+        <link rel="icon" type="image/x-icon" href="assets/ije/logos/1group.png">
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="assets/admin/dist/css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">

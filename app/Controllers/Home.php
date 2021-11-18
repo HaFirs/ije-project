@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use PhpParser\Node\Stmt\Echo_;
-
 class Home extends BaseController
 {
     public function index()
