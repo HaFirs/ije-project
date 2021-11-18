@@ -76,7 +76,7 @@
                             <div class="textwidget">
                                 Copyright &copy;<script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved | Night Owl Studio by <a href="<?= base_url('home'); ?>" target="_blank">IJE</a>
+                                </script> All rights reserved | Night Owl Studio by <a href="<?= base_url('ije'); ?>" target="_blank">IJE</a>
                             </div>
                         </div>
                     </div>
