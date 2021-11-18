@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Ije');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,8 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/users', 'Admin\Dashboard::index');
+$routes->get('/', 'Ije::index');
 $routes->get('/nios', 'Nios::index');
 $routes->get('/nios_news', 'Nios::nios_news');
 $routes->get('/nios_project', 'Nios::nios_project');
@@ -40,6 +39,10 @@ $routes->get('/nios_contact', 'Nios::nios_contact');
 $routes->get('/nios_about', 'Nios::nios_about');
 $routes->get('/kanan', 'Kanan::index');
 $routes->get('/kanan_undangan', 'Kanan::kanan_undangan');
+
+
+$routes->get('/users', 'Admin\Dashboard::index');
+
 
 /*
  * --------------------------------------------------------------------

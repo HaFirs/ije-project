@@ -1,9 +1,8 @@
 <?php 
 
 namespace App\Controllers;
-use CodeIgniter\Controller;
 
-class Kanan extends Controller
+class Kanan extends BaseController
 {
     public function index()
     {

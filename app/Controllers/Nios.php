@@ -1,9 +1,8 @@
-<?php 
+<?php
 
 namespace App\Controllers;
-use CodeIgniter\Controller;
 
-class Nios extends Controller
+class Nios extends BaseController
 {
     public function index()
     {
@@ -13,11 +12,9 @@ class Nios extends Controller
             'uri' => $uri
         ];
 
-        echo view('nios/templates/header', $data);
-        echo view('nios/home');
-        echo view('nios/templates/footer');
+        return view('nios/home', $data);
     }
-    
+
     public function nios_news()
     {
         $uri = service('uri');
@@ -25,12 +22,10 @@ class Nios extends Controller
             'title' => 'News - Night Owl Studio',
             'uri' => $uri
         ];
-        
-        echo view('nios/templates/header', $data);
-        echo view('nios/news');
-        echo view('nios/templates/footer');
+
+        return view('nios/news', $data);
     }
-    
+
     public function nios_project()
     {
         $uri = service('uri');
@@ -38,22 +33,8 @@ class Nios extends Controller
             'title' => 'Project - Night Owl Studio',
             'uri' => $uri
         ];
-        
-        echo view('nios/templates/header', $data);
-        echo view('nios/project');
-        echo view('nios/templates/footer');
-    }
 
-    public function nios_contact()
-    {
-        $uri = service('uri');
-        $data = [
-            'title' => 'Contact - Night Owl Studio',
-            'uri' => $uri
-        ];
-
-        echo view('nios/templates/header', $data);
-        echo view('nios/contact');
+        return view('nios/project', $data);
     }
 
     public function nios_about()
@@ -64,9 +45,17 @@ class Nios extends Controller
             'uri' => $uri
         ];
 
-        echo view('nios/templates/header', $data);
-        echo view('nios/about');
-        echo view('nios/templates/footer', $data);
+        return view('nios/about', $data);
     }
 
+    public function nios_contact()
+    {
+        $uri = service('uri');
+        $data = [
+            'title' => 'Contact - Night Owl Studio',
+            'uri' => $uri
+        ];
+
+        return view('nios/contact', $data);
+    }
 }

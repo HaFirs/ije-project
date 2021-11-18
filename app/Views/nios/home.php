@@ -1,3 +1,6 @@
+<?= $this->extend('nios/layout/template'); ?>
+<?= $this->section('content'); ?>
+
 <div id="content" role="main">
     <section class="section swatch-black-yellow">
         <div class="container">
@@ -9,8 +12,7 @@
     </section>
     <section class="section swatch-yellow-black has-top">
         <div class="decor-top">
-            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
-                xmlns="http://www.w3.org/2000/svg">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0 L100 100 L0 100" stroke-width="0"></path>
             </svg>
         </div>
@@ -22,14 +24,11 @@
             </header>
             <div class="row">
                 <ul class="list-unstyled row box-list ">
-                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".0s">
+                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".0s">
                         <div class="box-round">
                             <div class="box-dummy"></div>
                             <a class="box-inner " href="single-service.html">
-                                <img class="svg-inject"
-                                    src="assets/nios/assets/images/design/custom-icons/custom-icon-composer.png"
-                                    alt="a clock" data-animation="" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/custom-icons/custom-icon-composer.png" alt="a clock" data-animation="" />
                             </a>
                         </div>
                         <h3 class="text-center ">
@@ -42,14 +41,11 @@
                         <p class="text-center">Angle is build to look sharp ,cool and awesome on all displays. Images
                             will look sharp and clear.</p>
                     </li>
-                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".3s">
+                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".3s">
                         <div class="box-round">
                             <div class="box-dummy"></div>
                             <a class="box-inner " href="single-service.html">
-                                <img class="svg-inject"
-                                    src="assets/nios/assets/images/design/custom-icons/custom-icon-bag.png"
-                                    alt="a clock" data-animation="" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/custom-icons/custom-icon-bag.png" alt="a clock" data-animation="" />
                             </a>
                         </div>
                         <h3 class="text-center ">
@@ -61,14 +57,11 @@
                         <p class="text-center">No need to worry on keeping your theme updated. With Angle you get free
                             updates for life.</p>
                     </li>
-                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".6s">
+                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".6s">
                         <div class="box-round">
                             <div class="box-dummy"></div>
                             <a class="box-inner " href="single-service.html">
-                                <img class="svg-inject"
-                                    src="assets/nios/assets/images/design/custom-icons/custom-icon-iphone-white.png"
-                                    alt="a clock" data-animation="" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/custom-icons/custom-icon-iphone-white.png" alt="a clock" data-animation="" />
                             </a>
                         </div>
                         <h3 class="text-center ">
@@ -79,14 +72,11 @@
                         <p class="text-center">We have designed this site mobile first so it looks great on mobile
                             devices of all sizes.</p>
                     </li>
-                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".9s">
+                    <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".9s">
                         <div class="box-round">
                             <div class="box-dummy"></div>
                             <a class="box-inner " href="single-service.html">
-                                <img class="svg-inject"
-                                    src="assets/nios/assets/images/design/custom-icons/custom-icon-clipboard.png"
-                                    alt="a clock" data-animation="" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/custom-icons/custom-icon-clipboard.png" alt="a clock" data-animation="" />
                             </a>
                         </div>
                         <h3 class="text-center ">
@@ -103,8 +93,7 @@
     </section>
     <section class="section swatch-black-yellow has-top">
         <div class="decor-top">
-            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
-                xmlns="http://www.w3.org/2000/svg">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
             </svg>
         </div>
@@ -132,9 +121,7 @@
                     <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-gallery filter-image">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518"
-                                    src="assets/nios/assets/images/design/vector/img-8-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-8-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -156,9 +143,7 @@
                     <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518"
-                                    src="assets/nios/assets/images/design/vector/img-4-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-4-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -179,8 +164,7 @@
                     <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video filter-image">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-1-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-1-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -189,9 +173,7 @@
                                     </a>
                                 </h4>
                                 <p>After the avalanche it took us a week to climb out.</p>
-                                <a class="magnific more"
-                                    href="assets/nios/assets/images/design/vector/img-1-1200x600.png"
-                                    title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
+                                <a class="magnific more" href="assets/nios/assets/images/design/vector/img-1-1200x600.png" title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                                 <a class="link" href="portfolio-item-big.html">
@@ -200,13 +182,10 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div
-                        class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video filter-image filter-gallery">
+                    <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video filter-image filter-gallery">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518"
-                                    src="assets/nios/assets/images/design/vector/img-5-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-5-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -215,9 +194,7 @@
                                     </a>
                                 </h4>
                                 <p>I was living in his world, a world where chaos rules not order.</p>
-                                <a class="magnific more"
-                                    href="assets/nios/assets/images/design/vector/img-5-1200x600.png"
-                                    title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
+                                <a class="magnific more" href="assets/nios/assets/images/design/vector/img-5-1200x600.png" title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                                 <a class="link" href="portfolio-item-big.html">
@@ -229,9 +206,7 @@
                     <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518"
-                                    src="assets/nios/assets/images/design/vector/img-2-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-2-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -252,9 +227,7 @@
                     <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-image filter-gallery">
                         <figure class="portfolio-figure">
                             <a href="portfolio-item-big.html">
-                                <img width="600" height="518"
-                                    src="assets/nios/assets/images/design/vector/img-3-600x518.png"
-                                    class="img-responsive" alt="some image">
+                                <img width="600" height="518" src="assets/nios/assets/images/design/vector/img-3-600x518.png" class="img-responsive" alt="some image">
                             </a>
                             <figcaption>
                                 <h4>
@@ -263,9 +236,7 @@
                                     </a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="magnific more"
-                                    href="assets/nios/assets/images/design/vector/img-3-1200x600.png"
-                                    title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
+                                <a class="magnific more" href="assets/nios/assets/images/design/vector/img-3-1200x600.png" title="Quisque porta" data-prev-text="Previous" data-next-text="Next">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                                 <a class="link" href="portfolio-item-big.html">
@@ -280,8 +251,7 @@
     </section>
     <section class="section swatch-yellow-black has-top">
         <div class="decor-top">
-            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
-                xmlns="http://www.w3.org/2000/svg">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0 L100 100 L0 100" stroke-width="0"></path>
             </svg>
         </div>
@@ -295,8 +265,7 @@
                         <div class="box-round flat-shadow box-big">
                             <div class="box-dummy"></div>
                             <figure class="box-inner ">
-                                <img class="svg-inject" src="assets/nios/assets/images/design/people/man-1-800x800.png"
-                                    alt="a clock" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/people/man-1-800x800.png" alt="a clock" />
                                 <figcaption class="box-caption">
                                     <h4>Likes</h4>
                                     <p>Coffee and Beer</p>
@@ -332,13 +301,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".3s">
+                    <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".3s">
                         <div class="box-round flat-shadow box-big">
                             <div class="box-dummy"></div>
                             <figure class="box-inner ">
-                                <img class="svg-inject"
-                                    src="assets/nios/assets/images/design/people/woman-1-800x800.png" alt="a clock" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/people/woman-1-800x800.png" alt="a clock" />
                                 <figcaption class="box-caption">
                                     <h4>Says</h4>
                                     <p>I like ancient stuff</p>
@@ -374,13 +341,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp"
-                        data-os-animation-delay=".6s">
+                    <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".6s">
                         <div class="box-round flat-shadow box-big">
                             <div class="box-dummy"></div>
                             <figure class="box-inner ">
-                                <img class="svg-inject" src="assets/nios/assets/images/design/people/man-2-800x800.png"
-                                    alt="a clock" />
+                                <img class="svg-inject" src="assets/nios/assets/images/design/people/man-2-800x800.png" alt="a clock" />
                                 <figcaption class="box-caption">
                                     <h4>Moto</h4>
                                     <p>Live and let die</p>
@@ -425,8 +390,7 @@
                             <div class="box-round flat-shadow box-big">
                                 <div class="box-dummy"></div>
                                 <figure class="box-inner ">
-                                    <img class="svg-inject"
-                                        src="assets/nios/assets/images/design/people/man-1-800x800.png" alt="a clock" />
+                                    <img class="svg-inject" src="assets/nios/assets/images/design/people/man-1-800x800.png" alt="a clock" />
                                     <figcaption class="box-caption">
                                         <h4>Likes</h4>
                                         <p>Coffee and Beer</p>
@@ -468,8 +432,7 @@
     </section>
     <section class="section swatch-black-yellow has-top">
         <div class="decor-top">
-            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
-                xmlns="http://www.w3.org/2000/svg">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
             </svg>
         </div>
@@ -479,8 +442,7 @@
             </header>
             <div class="row">
                 <div class="col-md-12 os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".1s">
-                    <div id="slider-flex1" class="flexslider" data-flex-speed="7000" data-flex-animation="slide"
-                        data-flex-directions="hide" data-flex-controls="show" data-flex-controlsalign="center">
+                    <div id="slider-flex1" class="flexslider" data-flex-speed="7000" data-flex-animation="slide" data-flex-directions="hide" data-flex-controls="show" data-flex-controlsalign="center">
                         <ul class="slides">
                             <li>
                                 <blockquote class="fancy-blockquote">
@@ -489,10 +451,7 @@
                                             <div class="box-round box-huge">
                                                 <div class="box-dummy"></div>
                                                 <div class="box-inner">
-                                                    <img width="300" height="300"
-                                                        src="assets/nios/assets/images/design/people/woman-1-300x300.png"
-                                                        class="attachment-square-image-small wp-post-image"
-                                                        alt="some alt" draggable="false">
+                                                    <img width="300" height="300" src="assets/nios/assets/images/design/people/woman-1-300x300.png" class="attachment-square-image-small wp-post-image" alt="some alt" draggable="false">
                                                 </div>
                                             </div>
                                         </div>
@@ -512,10 +471,7 @@
                                             <div class="box-round box-huge">
                                                 <div class="box-dummy"></div>
                                                 <div class="box-inner">
-                                                    <img width="300" height="300"
-                                                        src="assets/nios/assets/images/design/people/woman-1-300x300.png"
-                                                        class="attachment-square-image-small wp-post-image"
-                                                        alt="some alt" draggable="false">
+                                                    <img width="300" height="300" src="assets/nios/assets/images/design/people/woman-1-300x300.png" class="attachment-square-image-small wp-post-image" alt="some alt" draggable="false">
                                                 </div>
                                             </div>
                                         </div>
@@ -552,11 +508,8 @@
                                 <div class="grid-post swatch-red-white">
                                     <article class="post post-showinfo">
                                         <div class="post-media">
-                                            <a class="feature-image magnific hover-animate"
-                                                href="assets/nios/assets/images/design/vector/img-4-800x700.png"
-                                                title="Thats a nice image">
-                                                <img alt="some image"
-                                                    src="assets/nios/assets/images/design/vector/img-4-800x700.png">
+                                            <a class="feature-image magnific hover-animate" href="assets/nios/assets/images/design/vector/img-4-800x700.png" title="Thats a nice image">
+                                                <img alt="some image" src="assets/nios/assets/images/design/vector/img-4-800x700.png">
                                                 <i class="fa fa-search-plus"></i>
                                             </a>
                                         </div>
@@ -711,20 +664,13 @@
                                 <div class="grid-post swatch-red-white">
                                     <article class="post post-showinfo">
                                         <div class="post-media">
-                                            <div id="slider-flex5" class="flexslider text-left feature-slider"
-                                                data-flex-speed="7000" data-flex-animation="slide"
-                                                data-flex-controls="hide" data-flex-directions="show"
-                                                data-flex-controlsalign="center" data-flex-captionhorizontal=""
-                                                data-flex-captionvertical="" data-flex-controlsposition=""
-                                                data-flex-directions-type="">
+                                            <div id="slider-flex5" class="flexslider text-left feature-slider" data-flex-speed="7000" data-flex-animation="slide" data-flex-controls="hide" data-flex-directions="show" data-flex-controlsalign="center" data-flex-captionhorizontal="" data-flex-captionvertical="" data-flex-controlsposition="" data-flex-directions-type="">
                                                 <ul class="slides">
                                                     <li>
-                                                        <img src="assets/nios/assets/images/design/vector/img-5-800x600.png"
-                                                            alt="some image">
+                                                        <img src="assets/nios/assets/images/design/vector/img-5-800x600.png" alt="some image">
                                                     </li>
                                                     <li>
-                                                        <img src="assets/nios/assets/images/design/vector/img-3-800x600.png"
-                                                            alt="some image">
+                                                        <img src="assets/nios/assets/images/design/vector/img-3-800x600.png" alt="some image">
                                                     </li>
                                                 </ul>
                                             </div>
@@ -802,11 +748,8 @@
                                 <div class="grid-post swatch-red-white">
                                     <article class="post post-showinfo">
                                         <div class="post-media">
-                                            <a class="feature-image magnific-youtube hover-animate"
-                                                href="http://www.youtube.com/watch?v=cfOa1a8hYP8"
-                                                title="Thats a nice image">
-                                                <img alt="some image"
-                                                    src="assets/nios/assets/images/design/vector/img-2-800x600.png">
+                                            <a class="feature-image magnific-youtube hover-animate" href="http://www.youtube.com/watch?v=cfOa1a8hYP8" title="Thats a nice image">
+                                                <img alt="some image" src="assets/nios/assets/images/design/vector/img-2-800x600.png">
                                                 <i class="fa fa-play"></i>
                                             </a>
                                         </div>
@@ -957,10 +900,8 @@
                                 <div class="grid-post swatch-red-white">
                                     <article class="post post-showinfo">
                                         <div class="post-media">
-                                            <a class="feature-image magnific-vimeo hover-animate"
-                                                href="http://vimeo.com/20061744" title="Let&#x27;s talk about it">
-                                                <img alt="some image"
-                                                    src="assets/nios/assets/images/design/vector/img-1-800x600.png">
+                                            <a class="feature-image magnific-vimeo hover-animate" href="http://vimeo.com/20061744" title="Let&#x27;s talk about it">
+                                                <img alt="some image" src="assets/nios/assets/images/design/vector/img-1-800x600.png">
                                                 <i class="fa fa-play"></i>
                                             </a>
                                         </div>
@@ -1035,3 +976,6 @@
             </div>
         </div>
     </section>
+
+
+    <?= $this->endSection(); ?>
