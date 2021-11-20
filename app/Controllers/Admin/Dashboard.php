@@ -1,6 +1,7 @@
-<?php 
+<?php
 
 namespace App\Controllers\Admin;
+
 use App\Controllers\BaseController;
 
 class Dashboard extends BaseController
@@ -13,9 +14,6 @@ class Dashboard extends BaseController
             'uri' => $uri
         ];
 
-        echo view('admin/templates/header', $data);
-        echo view('admin/templates/sidebar');
-        echo view('admin/home');
-        echo view('admin/templates/footer');
+        return view('admin/home', $data);
     }
 }
