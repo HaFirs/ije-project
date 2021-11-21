@@ -72,7 +72,8 @@ class Users extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => '10',
             ],
-            'user_register TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP',
+            'created_at DATETIME NULL DEFAULT CURRENT_TIMESTAMP',
+            'updated_at DATETIME NULL DEFAULT CURRENT_TIMESTAMP',
             'user_photo' => [
                 'type' => 'VARCHAR',
                 'constraint' => '100',
