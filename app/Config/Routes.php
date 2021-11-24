@@ -44,11 +44,12 @@ $routes->get('/nios_about', 'Nios::nios_about');
 $routes->get('/kanan', 'Kanan::index');
 $routes->get('/kanan_undangan', 'Kanan::kanan_undangan');
 
-
-$routes->get('/users', 'Admin\Dashboard::index');
-$routes->get('/add-news', 'Admin\Dashboard::add_news');
-$routes->get('/news-list', 'Admin\Dashboard::news_list');
-$routes->get('/news-category', 'Admin\Dashboard::news_category');
+$routes->group('admin', function ($routes) {
+    $routes->get('users', 'Admin\Dashboard::index');
+    $routes->get('add-news', 'Admin\Dashboard::add_news');
+    $routes->get('news-list', 'Admin\Dashboard::news_list');
+    $routes->get('news-category', 'Admin\Dashboard::news_category');
+});
 
 
 /*
